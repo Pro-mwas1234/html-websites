@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee | Mwask</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo" aria-label="Coffee home">
+                <svg class="logo-icon" viewBox="0 0 48 48" aria-hidden="true">
+                    <path d="M14 11h22v7c0 7.2-4.9 13-11 13S14 25.2 14 18v-7Z"/>
+                    <path d="M36 15h2.5a7.5 7.5 0 0 1 0 15H36"/>
+                    <path d="M10 35h30"/>
+                </svg>
+                <span>Coffee</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#menu">Menu</a></li>
+                <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">Best Coffee</p>
+                <h1>Make your day great with our<br>special coffee!</h1>
+                <p class="hero-description">
+                    Welcome to our coffee paradise, where every bean tells<br>
+                    a story and every cup sparks joy.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#menu">Order Now</a>
+                    <a class="button button-outline" href="#contact">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="hero-art" aria-label="Fresh cup of coffee">
+                <div class="image-frame">
+                    <img src="coffee.jpg" alt="A fresh cup of latte">
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="section-heading">
+                <p class="section-kicker">Our Story</p>
+                <h2>About Us</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="coffee.jpg" alt="Fresh coffee served with plants">
+                </div>
+                <div class="about-content">
+                    <h3>Where every cup feels special</h3>
+                    <p>We are a neighborhood coffee shop serving carefully selected beans, warm conversations, and memorable moments. From the first roast to the final pour, we make every cup with passion.</p>
+                    <a class="button button-outline" href="#contact">Visit Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section menu-section" id="menu">
+            <div class="section-heading">
+                <p class="section-kicker">Popular choices</p>
+                <h2>Our Menu</h2>
+            </div>
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="menu-icon">☕</div>
+                    <h3>Classic Espresso</h3>
+                    <p>A rich, bold shot brewed to perfection.</p>
+                    <strong>$3.50</strong>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-icon">🥛</div>
+                    <h3>Caramel Latte</h3>
+                    <p>Espresso, steamed milk, and sweet caramel.</p>
+                    <strong>$5.50</strong>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-icon">❄️</div>
+                    <h3>Iced Coffee</h3>
+                    <p>Chilled coffee with a smooth, refreshing finish.</p>
+                    <strong>$4.50</strong>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-icon">🍵</div>
+                    <h3>Green Matcha</h3>
+                    <p>Earthy matcha blended with creamy milk.</p>
+                    <strong>$5.00</strong>
+                </article>
+            </div>
+        </section>
+
+        <section class="section testimonials-section" id="testimonials">
+            <div class="section-heading">
+                <p class="section-kicker">Kind words</p>
+                <h2>What Guests Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <blockquote class="testimonial-card">
+                    <p>“The coffee is wonderful and the atmosphere feels so warm. It is my favorite place to begin the day.”</p>
+                    <footer>
+                        <strong>Sarah Johnson</strong>
+                        <span>Regular Guest</span>
+                    </footer>
+                </blockquote>
+                <blockquote class="testimonial-card featured">
+                    <p>“Beautifully made drinks, friendly staff, and the best caramel latte I have ever tasted.”</p>
+                    <footer>
+                        <strong>Michael Brown</strong>
+                        <span>Food Blogger</span>
+                    </footer>
+                </blockquote>
+                <blockquote class="testimonial-card">
+                    <p>“A cozy spot with excellent service. Their iced coffee is refreshing and never disappoints.”</p>
+                    <footer>
+                        <strong>Emily Davis</strong>
+                        <span>Local Customer</span>
+                    </footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="section gallery-section" id="gallery">
+            <div class="section-heading">
+                <p class="section-kicker">Our Moments</p>
+                <h2>Coffee Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-tall"><img src="coffee.jpg" alt="Coffee at our cafe"></div>
+                <div class="gallery-item"><img src="coffee.jpg" alt="Freshly prepared latte"></div>
+                <div class="gallery-item"><img src="coffee.jpg" alt="Coffee served with care"></div>
+                <div class="gallery-item gallery-wide"><img src="coffee.jpg" alt="Our welcoming coffee shop"></div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="section-heading">
+                <p class="section-kicker">Come say hello</p>
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h3>Visit our coffee house</h3>
+                    <p>123 Coffee Street<br>Downtown, City</p>
+                    <p><strong>Phone:</strong> +1 234 567 890</p>
+                    <p><strong>Hours:</strong> Mon-Sun, 8:00 AM - 8:00 PM</p>
+                </div>
+                <form class="contact-form">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" placeholder="Your name">
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" placeholder="Your email">
+                    </label>
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" rows="5" placeholder="How can we help?"></textarea>
+                    </label>
+                    <button class="button button-primary" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navMenu = document.querySelector(".nav-menu");
+
+        menuToggle.addEventListener("click", () => {
+            const isOpen = navMenu.classList.toggle("open");
+            menuToggle.setAttribute("aria-expanded", isOpen);
+        });
+
+        document.querySelectorAll(".nav-link").forEach((link) => {
+            link.addEventListener("click", () => {
+                navMenu.classList.remove("open");
+                menuToggle.setAttribute("aria-expanded", "false");
+            });
+        });
+
+        document.querySelector(".contact-form").addEventListener("submit", (event) => {
+            event.preventDefault();
+            event.currentTarget.reset();
+        });
+    </script>
+</body>
+</html>
